@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--填写UserMapper位置-->
+<mapper namespace="com.example.demo1.Revenue.RevenueMapper">
+    <select id="findAllRevenue" resultType="com.example.demo1.Revenue.Revenue">
+        SELECT * FROM  mcdonalds_revenue
+    </select>
+    <select id="findRevenue" resultType="java.math.BigDecimal">
+        SELECT revenue FROM  mcdonalds_revenue
+    </select>
+    <select id="findYear" resultType="Integer">
+        SELECT year FROM  mcdonalds_revenue
+    </select>
+    <select id="selectByYear" resultType="com.example.demo1.Revenue.Revenue">
+        SELECT * FROM mcdonalds_revenue WHERE year=#{year};
+    </select>
+
+</mapper>

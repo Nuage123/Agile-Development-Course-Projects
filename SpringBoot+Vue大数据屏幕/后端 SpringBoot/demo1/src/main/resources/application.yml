@@ -1,0 +1,13 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://106.15.64.101:3306/www_abc_com
+#    username: www_abc_com
+#    password: hfdMfWtpBa
+    url: jdbc:mysql://localhost:3306/data_screen
+    username: root
+    password: 1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# MyBatis 配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
