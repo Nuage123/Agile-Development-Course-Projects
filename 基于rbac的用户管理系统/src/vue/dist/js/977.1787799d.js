@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkbilibili"]=self["webpackChunkbilibili"]||[]).push([[977],{8977:function(i,l,s){s.r(l),s.d(l,{default:function(){return a}});var u=function(){var i=this,l=i._self._c;return l("div",{staticClass:"success-page"},[i._v(" ListPage ")])},e=[],n=s(1001),t={},c=(0,n.Z)(t,u,e,!1,null,null,null),a=c.exports}}]);
+//# sourceMappingURL=977.1787799d.js.map
